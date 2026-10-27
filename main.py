@@ -7,9 +7,18 @@ import psutil
 
 from PySide6.QtCore import Qt, QThread, Signal, Slot, QTimer
 from PySide6.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QLabel, QPushButton, QTableWidget, QTableWidgetItem, QTabWidget,
-    QMessageBox, QHeaderView, QGroupBox, QFormAlignmentProxy
+    QApplication,
+    QMainWindow,
+    QWidget,
+    QVBoxLayout,
+    QHBoxLayout,
+    QLabel,
+    QPushButton,
+    QTabWidget,
+    QTableWidget,
+    QTableWidgetItem,
+    QHeaderView,
+    QMessageBox
 )
 from PySide6.QtGui import QColor, QIcon
 
